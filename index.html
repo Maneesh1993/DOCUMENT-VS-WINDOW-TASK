@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>DIFFERENCE BETWEEN WINDOW vs DOCUMENT</h1>
+    <div>
+        <ul>
+            <li>Document and Window is the big object</li>
+            <li>console.log(window)</li>
+            <li>console.log(document)</li>
+        </ul>
+        <h2>WINDOW</h2>
+        <ul>
+            <li>
+                <P>We will use Window if we want to access the page tab other than than the document inside the page</P>
+
+            </li>
+            <li>GO TO →GOOGLE CHROME→RIGHT CLICK→INSPECT→CONSOLE→TYPE WINDOW→GIVE ENTER→YOU WILL GET MORE WINDOW OPTIONS LIKE ALERT,CONFIRM ETC...</li>
+            <H3>EXAMPLE FOR THE WINDOW</H3>
+            <LI>To get pop-up window</LI>
+            <li>console.log(window.alert("Age is lesser than 18!!!"))</li>
+            <li>console.log(window.confirm("are you sure you want to leave?"))</li>
+            <li><b>console.log is not necessary for window</b></li>
+            <li>window.alert("your password does not match😮😮😮")</li>
+        </ul>
+        <h2>Document</h2>
+        <ul>
+            <li>
+               To access the content inside the document we can use DOM 
+            </li>
+            <li>by accessing the content we can give properties and acting functions for that particular content</li>
+            <li>That is have to use document</li>
+            <li>console.log(document)</li>
+            <H3>EXAMPLE FOR THE Document</H3>
+            <LI>To Create elememt using DOM</LI>
+            <li>console.log(document.queryselector("h1").textcontent)</li>
+           <LI><p>Document.createElement("a")
+                a.setAttribute("href","https:www.google.com");
+           </p></LI>
+           <LI>Document.getElementsById()</LI>
+           <LI>Document.getElementsByClassName()</LI>
+           <LI>Document.getElementByTagname()</LI>
+           <LI>Document.queryselector()</LI>
+           <LI>Document.queryselectorAll()</LI>
+           
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
